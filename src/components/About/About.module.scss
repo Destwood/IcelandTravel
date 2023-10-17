@@ -1,0 +1,126 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 2rem;
+  max-width: 40vw;
+}
+.subTitle {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+  padding-left: 5rem;
+  color: #fbd784;
+  font-weight: 400;
+  font-size: 1.125rem;
+  letter-spacing: 0.25rem;
+  text-transform: uppercase;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 4.5rem;
+    height: 0.125rem;
+    background: #fbd784;
+    content: "";
+  }
+}
+.title {
+  color: #fff;
+  font-family: Georgia;
+  font-size: 3rem;
+  line-height: 4.375rem;
+  text-transform: capitalize;
+}
+
+.text {
+  color: #fff;
+  font-family: Buenard;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+  text-align: justify;
+}
+
+.img {
+  height: 70vh;
+  border-radius: 1.4375rem;
+  box-shadow: 4px 4px 73px 0px rgba(251, 215, 132, 0.5);
+}
+.button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-family: Buenard;
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin-top: 3rem;
+  img {
+    height: 1rem;
+  }
+  &:hover img {
+    animation: slide-to-right 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  }
+}
+@keyframes slide-to-right {
+  0% {
+    transform: translateX(0);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(15px);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    justify-content: space-between;
+    padding: 2rem;
+    gap: 2rem;
+    .content {
+      max-width: fit-content;
+    }
+    .title {
+      font-size: 2rem;
+    }
+    .text {
+      font-size: 1rem;
+    }
+    .img {
+      height: 30rem;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    padding-top: 5rem;
+    height: fit-content;
+    flex-direction: column;
+    .title {
+      font-size: 1.5rem;
+      line-height: 2rem;
+    }
+    .img {
+      height: 30rem;
+    }
+  }
+}
+@media (max-width: 440px) {
+  .container {
+    .img {
+      height: 20rem;
+    }
+  }
+}
