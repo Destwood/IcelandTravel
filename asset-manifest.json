@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/IcelandTravel/static/css/main.9332e2a8.css",
+    "main.js": "/IcelandTravel/static/js/main.1cbc5825.js",
+    "static/media/toures2.png": "/IcelandTravel/static/media/toures2.60d2d75e4c49be16dccc.png",
+    "static/media/toures3.png": "/IcelandTravel/static/media/toures3.6a4b27eff47af424648f.png",
+    "static/media/hero.png": "/IcelandTravel/static/media/hero.11e71d69f8f16714f293.png",
+    "static/media/toures1.png": "/IcelandTravel/static/media/toures1.ba7f55be4de050b8ac2c.png",
+    "static/media/about.png": "/IcelandTravel/static/media/about.f451baba462a941da7e0.png",
+    "static/media/blog.png": "/IcelandTravel/static/media/blog.b426f3413f0bf9ca9297.png",
+    "static/media/logo.png": "/IcelandTravel/static/media/logo.8205ed2f8172117b3748.png",
+    "static/media/arrowLeft.svg": "/IcelandTravel/static/media/arrowLeft.b0fd4d228ac3a75ccc24a1b01f403e65.svg",
+    "static/media/arrowDown.svg": "/IcelandTravel/static/media/arrowDown.c12af21c719bdfe0f42e95b9ec875b74.svg",
+    "static/media/arrowRight.svg": "/IcelandTravel/static/media/arrowRight.d6aecbc97c84d7d659ebf6c79ae05ecb.svg",
+    "static/media/Account.svg": "/IcelandTravel/static/media/Account.8a74c15900de82b4d28f2dcfd345ffb3.svg",
+    "index.html": "/IcelandTravel/index.html",
+    "main.9332e2a8.css.map": "/IcelandTravel/static/css/main.9332e2a8.css.map",
+    "main.1cbc5825.js.map": "/IcelandTravel/static/js/main.1cbc5825.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9332e2a8.css",
+    "static/js/main.1cbc5825.js"
+  ]
+}
